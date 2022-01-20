@@ -1,213 +1,172 @@
-body{
+body {
     background-color: rgb(238, 231, 231);
 }
-.container > a{
-    display: inline-block;
+.container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+.container > h4 {
     text-decoration: none;
-    font-size: 14px;
-    margin:  40px 100px;
+    font-size: 15px;
+    margin-bottom: 15px;
 }
 .container > h2 {
     color: #000000;
     font-size: 40px;
-    font-weight: 900;
+    font-weight: bolder;
     margin-bottom: 40px;
-    margin-left: 60px;
+}
+.section1 {
+    margin-top: 50px;
 }
 /* section 1 */
-
-.s-1{
+.s-1 {
     display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: flex-end;
 }
-.s-1 > textarea {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+textarea {
+    max-width: 720px;
+    width: 100%;
+    height: 280px;
+    border: 2px solid grey;
+    margin-right: 20px;
     resize: none;
-    width: 720px;
-    height: 288px;
-    margin-left: 60px;
     padding: 10px 10px;
+    color: rgb(255, 81, 0);
 }
-.box{
-    margin-left: 100px;
-}
-.box-subject{
-    display: grid;
-    margin-bottom: 16px;
-    margin-left: 20px;
-    width: 352px;
-    height: 60px;
-}
-.box-name{
-    display:grid;
-    margin-left:20px;
-    margin-bottom: 16px;
-    width: 352px;
-    height: 60px;
-}
-.box-email{
-    display:grid;
-    margin-bottom: 16px;
-    margin-left:20px;
-    width: 352px;
-    height: 60px;
-}
-.s-1-button{
-    display:grid;
-    margin-left: 20px;
-    width: 352px;
-    height: 60px;
-    background-color: #5863F8;
-    text-decoration: solid;
+input {
+    max-width: 360px;
+    width: 100%;
+    height: 55px;
+    border: 1 solid lightgray;
+    display: flex;
+    margin-bottom: 20px;
+    padding: 0 15px;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    color:rgb(255, 255, 255);
+}
+.information {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-direction: row;
+    align-content: flex-end;
+}
+
+.s-1-button {
+    cursor: pointer;
+    text-align: center;
+    padding: 20px 150px;
+    background-color: rgba(14, 14, 88, 0.87);
+    border: solid 5px rgb(132, 0, 255);
+    color: whitesmoke;
+    margin-bottom: 30px;
 }
 
 /* section 2 */
 
-.container-box{
+.container-box {
     display: flex;
-    margin: 100px;
-    
+    justify-content: space-around;
+    margin: 50px;
 }
-.s-images{
-    margin-left: 81px;
-    display: flex;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-}
-.lil-box{
-    text-decoration: black;
-    margin-left: 100px;
-    padding: 30px;
-    margin-top: 10px;
+.lil-box {
+    margin-top: 100px;
     width: 250px;
-    height: 200px;
+    height: 250px;
     text-align: center;
 }
 .lil-box > h3 {
     color: rgba(0, 0, 0, 0.829);
-    margin-bottom: 10px;
-    font-size: 18px;
     font-weight: 600;
-    margin-top: 15px;
+    font-size: 18px;
+    margin-top: 20px;
 }
-.lil-box >p{
+.lil-box > p {
     color: #5e1d7c;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: medium;
-    margin-top: 5px;
+    margin-top: 10px;
 }
-.a-none{
+.container > h4 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 14px;
+    margin: 40px 100px;
+}
+.a-none {
     text-decoration: none;
     color: #5e1d7c;
 }
-.s-3-photos{
-    display: inline-flex;
-    margin-left: 70px;
-    margin-right: 70px;  
-    width: 352px;
-    height: 352px; 
+.content {
+    display: flex;
+    justify-content: space-around;
 }
 /* footer */
-.footer{
-    display: flex;
-    background-color: rgba(0, 0, 0, 0.849);
+
+footer {
+    background-color: #242323;
     width: 100%;
-    height:100%;
-    
+    height: 300px;
 }
-.zetta > h3 {
+.container {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.row {
+    margin-top: 80px;
     display: flex;
-    vertical-align: top;
-    margin-top: 60px;
-    margin-left: 100px;
-    font-size: 36px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
-.zetta > p {
+
+.footer-wrapper {
+    width: 250px;
+}
+
+.footer-wrapper > h3 {
+    margin-left: 20px;
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 15px;
+}
+
+.footer-wrapper > p {
+    margin-left: 10px;
+    color: greenyellow;
     font-family: fantasy;
-    vertical-align:bottom;
-    color: rgb(124, 70, 70);
-    font-size: 16px;
-    margin: 20px;
-    margin-left: 100px;
-    width: bolder;
-    width: 225px;
-    height: 200px;
-}
-.soc-media{
-    content: icon;
-    width: 30px;
-    height: auto;
-    margin-left: 50px;
-    margin-bottom: 50px;
-}
-.blogger{
-    margin-left: 250px;
-}
-.blogger > h3{
-    display: flex;
-    font-size: 18px;
-    color: white;
-    margin-bottom: 20px; 
-    margin-top: 80px;
-}
-.li-footer{
-    width: bold;
+    font-weight: bolder;
     font-size: 14px;
-    color: rgb(55, 45, 201);
-    padding: 5px;
 }
-.privacy{
-margin-top: 10px;
-margin-right: 150px;
-}
-.privacy > h3{
-    display: flex;
-    color: white;
-    font-size: 18px;
-    margin-bottom: 20px;
-    margin-top: 70px;
-    margin-left: 280px;
-}
-.li-footer-2{
-    width: bold;
-    font-size: 14px;
-    color: rgb(55, 45, 201);
-    padding: 5px;
-    margin-left: 280px;
-    margin-right: 100px;
-}
-.social{
-    margin-top: 118px;
-}
-.social > .icon{
-    display: flex;
-    margin-top: 5px;
-    margin-bottom: 12px;
-    width: 22px;
-    height: 22px;
-}
-.contact-info > h3{
-    display: flex;
-    font-size: 18px;
-    color: white;
-    margin-bottom: 20px;
-    margin-top: 80px;
-}
-.mail{
-    text-decoration: none;
-    color:rgb(55, 45, 201); 
-    padding: 10px;
-    float: right;
-}
-.only4contact{
-    display: inline;
-    padding: 5px;
-
+.footer-wrapper ul li:not(last-child) {
+    margin-left: 25px;
+    padding: 11px;
 }
 
+.footer-wrapper a {
+    color: rgb(181, 18, 231);
+}
+.network {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+.social-li {
+    color: rgb(181, 18, 231);
+}
