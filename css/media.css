@@ -1,34 +1,53 @@
     @media(max-width:1200px){
-        .container{
-            width: 90%;
+    }
+
+    @media (max-width:1073px){
+        input{
+            display: flex;
+            justify-content: flex-end;
+            }
+        .content{
+            flex-direction: column;
+            align-items: center;
+    }
+    .container>h4{
+        display: none;
+    }
+    .container>h2{
+        text-align: center;
+    }
+    .info{
+        display: block;
+        margin-left: 30px;
+    }
+        input{
+            vertical-align: middle;
+            margin-top: 30px;
+            max-width: 400px;
+            width: 100%;     
+        }
+        .button{
+            border: orange dotted 2px;
+            max-width: 400px;
+            width: 100%;    
         }
     }
-        @media (max-width:1056px){
-    .s-1{
-        width: 90%;
-        display: flex;
-    }
-    input{
-        display: flex;
-        justify-content: flex-end;
 
+
+
+
+
+@media (max-width:770px){
+    textarea{
+        width: 600px;
     }
     .content{
-        flex-direction: column;
-        align-items: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
-}
-
-
-
-
-@media (max-width:1000px){
-    .container>h4{
-        display: block;
-        margin-left: auto;
-        margin-bottom: 50px;
-        margin-right: auto;
-        width: 50%;
+    .content>img{
+        margin-top: 20px;
+        margin-bottom: 20px;
     }
     .footer-wrapper{
         width: 40%;
@@ -39,16 +58,18 @@
         height: 500px;
     }
 }
-@media(max-width:878px){
-    .lil-box{
-        width: 150px;
+@media(max-width:650px){
+    textarea{
+        max-width: 400px;
+        width: 100%;
     }
-    .s-images{
-        margin-left: 50px;
-
+    input{
+        width: 300px;
     }
-    .b-images{
-
+    .button{
+        width: 300px;
+        background-color: rebeccapurple;
+        border:blue 3px dotted;
     }
     footer{
         height: 510px;
@@ -57,20 +78,24 @@
 
         /* phones */
 
-@media(max-width:480px){
-    .container>h4{
-        text-align: center;
-    }
-    .s-1{
+@media(max-width:481px){
+    .container-box{
         display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
     }
     .footer-wrapper{
         width: auto;
         text-align: center;
     }
     footer{
-        display: block;
-        flex-direction: column;
-        align-items: center;
+        height: 110%;
     }
 }
